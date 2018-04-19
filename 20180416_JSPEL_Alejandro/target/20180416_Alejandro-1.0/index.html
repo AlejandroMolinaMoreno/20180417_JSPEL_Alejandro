@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+        <form method="post" action="calculadora">
+            <table>
+                <tr>
+                    <td>Operando 1</td>
+                    <td><input type="number" name="operando1" required></td>
+                </tr>
+                <tr>
+                    <td>Operando 2</td>
+                    <td><input type="number" name="operando2" required></td>
+                </tr>
+                <tr>
+                    <td>Suma</td>
+                    <td><input type="radio" name="opcion" value="suma" checked></td>
+                </tr>
+                <tr>
+                    <td>Resta</td>
+                    <td><input type="radio" name="opcion" value="resta"></td>
+                </tr>
+                <tr>
+                    <td>Multiplicacion</td>
+                    <td><input type="radio" name="opcion" value="multiplicar"></td>
+                </tr>
+                <tr>
+                    <td>Division</td>
+                    <td><input type="radio" name="opcion" value="dividir"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="enviar" value="enviar"></td>
+                <td><input type="reset" name="borrar" value="borrar"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
